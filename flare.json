@@ -1,0 +1,115 @@
+
+     {
+      "name": "SPACE", 
+      "children": [
+       {
+        "name": "BAY (Bank of Ayudhya Public Company Limited)",
+        "children": [
+            {
+                "name": "AYCAL",
+                "children": [
+                 {"name": "IF : Inventory Finance (สินเชื่อเพื่อสินค้าคงคลัง)", 
+                    "children" : [
+                        {"name": "IF : Inventory Finance Original (สินเชื่อเพื่อสินค้าคงคลัง)", "size": 1000},
+                        {"name": "CTM : Inventory Finance Curtailment", "size": 1000}
+                    ]
+                 },
+                 {"name": "TL : Term Loan", 
+                    "children" : [
+                        {"name": "ML : Motorcycle 2W C4C โปะ", "size": 1000},
+                        {"name": "RM : Revolving Loan 2W C4C พร้อมใช้", "size": 1000}
+                    ]
+                },
+                {"name": "HP : Hire Purchase", 
+                    "children" :[
+                        {"name": "?", "size": 1000},
+                        {"name": "MC : MotorCycle",
+                            "children" : [
+                                {"name": "MC : MotorCycle", "size": 1000},
+                                {"name": "Big Bike", "size": 1000}
+                            ]
+                        }
+                    ]
+                 }
+            ]
+           },
+             {
+                "name": "A@B",
+                "children": [
+                 {"name": "HP : Hire Purchase", 
+                    "children" :[
+                        {"name": "?", "size": 1000},
+                        {"name": "HP : Hire Purchase 4W & UP",
+                            "children" : [
+                                {"name": "New Car (สินเชื่อรถใหม่)", 
+                                    "children" : [
+                                        {"name": "Credit Line : Fleet (ซื้อรถจำนวนมาก)", 
+                                            "children" : [
+                                                {"name": "Product Feature : Truck", 
+                                                    "children" : [
+                                                        {"name": "Type Credit Line :Revolving", "size": 1000},
+                                                        {"name": "Type Credit Line :Non-Revolving", "size": 1000}
+                                                    ]
+                                                },
+                                                {"name": "Product Feature : 4W ?", "size": 1000}
+                                            ]
+                                        },
+                                        {"name": "Credit Line : Retail (ซื้อเป็นรายคัน)", 
+                                            "children" : [
+                                                {"name": "Product Feature : Balloon", "size": 1000},
+                                                {"name": "Product Feature : Import car", "size": 1000},
+                                                {"name": "Product Feature : 4W", "size": 1000}
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {"name": "Used Car (สินเชื่อรถมือสอง)", "size": 1000}
+                            ]
+                        }
+                    ]
+                 },
+                 {"name": "TL : Term Loan", 
+                    "children" : [
+                        {"name": "AL: Auto Loan 4W C4C โปะ", "size": 1000},
+                        {"name": "RH: Revolving  Loan 4W C4C พร้อมใช้", "size": 1000}
+                    ]
+                },
+                 {"name": "PL : Personal Loan", 
+                    "children" : [
+                        {"name": "SL : Staff Loan", "size": 1000},
+                        {"name": "IC : Insurance premium cash", "size": 1000}
+                    ]
+                 },
+                 {"name": "LS : Leasing (สินเชื่อลิสซิ่ง)", 
+                    "children" : [
+                        {"name": "Finance lease (สัญญาเช่าการเงิน)", 
+                            "children" : [
+                                {"name": "Credit Line : Fleet (สินเชื่อเพื่อจัดซื้อรถมาใช้ในกิจการ)", 
+                                    "children" : [
+                                        {"name": "Product Feature : Truck", 
+                                            "children" : [
+                                                {"name": "Type Credit Line :Revolving", "size": 1000},
+                                                {"name": "Type Credit Line :Non-Revolving", "size": 1000}
+                                            ]
+                                        },
+                                        {"name": "Product Feature : ?", "size": 1000}
+                                    ]
+                                },
+                                {"name": "Credit Line : Retail (สินเชื่อเพื่อจัดซื้อเป็นรายคัน)", 
+                                    "children" : [
+                                        {"name": "Product Feature : Balloon", "size": 1000},
+                                        {"name": "Product Feature : Import car", "size": 1000},
+                                        {"name": "Product Feature : 4W", "size": 1000}
+                                    ]
+                                }
+                            ]
+                        },
+                        {"name": "Operation Lease (สัญญาเช่าดำเนินงาน)", "size": 1000}
+                    ]
+                 }
+                ]
+            }
+        ]
+       }
+      ]
+     }
